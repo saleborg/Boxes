@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sets submit button label 'Save' when saving is false 1`] = `
+<form
+  name="submitform"
+  onSubmit={[Function]}
+>
+  <h2>
+    Add Box
+  </h2>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="name"
+    >
+      Name
+    </label>
+    <div
+      className="field"
+    >
+      <input
+        className="form-control"
+        id="name"
+        name="name"
+        onChange={[Function]}
+        type="text"
+        value="jhg"
+      />
+    </div>
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="weight"
+    >
+      Weight
+    </label>
+    <div
+      className="field"
+    >
+      <input
+        className="form-control"
+        name="weight"
+        onChange={[Function]}
+        type="text"
+        value="56"
+      />
+    </div>
+  </div>
+  <input
+    onClick={[Function]}
+    type="button"
+    value="Click to show Color picker"
+  />
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="country"
+    >
+      Country
+    </label>
+    <div
+      className="field"
+    >
+      <select
+        className="form-control"
+        name="country"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          value=""
+        >
+          Select Country
+        </option>
+        <option
+          value="Sweden"
+        >
+          Sweden
+        </option>
+        <option
+          value="China"
+        >
+          China
+        </option>
+        <option
+          value="Brazil"
+        >
+          Brazil
+        </option>
+        <option
+          value="Australia"
+        >
+          Australia
+        </option>
+      </select>
+    </div>
+  </div>
+  <button
+    className="btn btn-primary"
+    disabled={false}
+    type="submit"
+  >
+    Save
+  </button>
+</form>
+`;
+
+exports[`sets submit button label 'Saving...' when saving is true 1`] = `
+<form
+  name="submitform"
+  onSubmit={[Function]}
+>
+  <h2>
+    Add Box
+  </h2>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="name"
+    >
+      Name
+    </label>
+    <div
+      className="field"
+    >
+      <input
+        className="form-control"
+        id="name"
+        name="name"
+        onChange={[Function]}
+        type="text"
+        value="jhg"
+      />
+    </div>
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="weight"
+    >
+      Weight
+    </label>
+    <div
+      className="field"
+    >
+      <input
+        className="form-control"
+        name="weight"
+        onChange={[Function]}
+        type="text"
+        value="56"
+      />
+    </div>
+  </div>
+  <input
+    onClick={[Function]}
+    type="button"
+    value="Click to show Color picker"
+  />
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="country"
+    >
+      Country
+    </label>
+    <div
+      className="field"
+    >
+      <select
+        className="form-control"
+        name="country"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          value=""
+        >
+          Select Country
+        </option>
+        <option
+          value="Sweden"
+        >
+          Sweden
+        </option>
+        <option
+          value="China"
+        >
+          China
+        </option>
+        <option
+          value="Brazil"
+        >
+          Brazil
+        </option>
+        <option
+          value="Australia"
+        >
+          Australia
+        </option>
+      </select>
+    </div>
+  </div>
+  <button
+    className="btn btn-primary"
+    disabled={true}
+    type="submit"
+  >
+    Saving...
+  </button>
+</form>
+`;
